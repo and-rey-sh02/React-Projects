@@ -1,77 +1,100 @@
-# React + TypeScript + Vite
+# Todo App Redux
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern task management application built with React, TypeScript, and Redux Toolkit.
 
-Currently, two official plugins are available:
+## 🔗 Demo
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+https://react-projects-mu-seven.vercel.app
 
-## React Compiler
+## 📸 Preview
 
-The React Compiler is enabled on this template. See [this documentation](https://react.dev/learn/react-compiler) for more information.
+![Todo App Preview](./public/preview.png)
 
-Note: This will impact Vite dev & build performances.
+## 🚀 Technologies
 
-## Expanding the ESLint configuration
+* React 19
+* TypeScript
+* Redux Toolkit
+* React Redux
+* Vite
+* CSS3
+* ESLint
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+## ✨ Features
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+* Create, complete, and delete tasks
+* Global state management with Redux Toolkit
+* Typed Redux store with TypeScript
+* Component-based architecture
+* Responsive user interface
+* Fast development with Vite
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+## 📂 Project Structure
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-
+```text
+todo-app-redux/
+│
+├── src/
+│   ├── app/
+│   │   └── store.ts
+│   │
+│   ├── components/
+│   │   └── Todo.tsx
+│   │
+│   ├── features/
+│   │   └── todo/
+│   │       └── todoSlice.ts
+│   │
+│   ├── App.tsx
+│   ├── main.tsx
+│   └── index.css
+│
+├── public/
+├── package.json
+└── vite.config.ts
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+## 🧠 What I Practiced
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+This project helped me improve my skills with:
 
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+* React functional components
+* React hooks
+* Redux Toolkit slices
+* Global state management
+* TypeScript types and interfaces
+* Project structure organization
+* Modern frontend development workflow
 
+## ⚙️ Installation
+
+Clone the repository:
+
+```bash
+git clone https://github.com/and-rey-sh02/React-Projects.git
 ```
+
+Go to the project folder:
+
+```bash
+cd todo-app-redux
+```
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+Run development server:
+
+```bash
+npm run dev
+```
+
+## 👨‍💻 Author
+
+**Andrey Shkarupa**
+
+GitHub:
+https://github.com/and-rey-sh02
