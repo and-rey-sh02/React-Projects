@@ -6,10 +6,6 @@ A modern task management application built with React, TypeScript, and Redux Too
 
 https://react-projects-mu-seven.vercel.app
 
-## 📸 Preview
-
-![Todo App Preview](./public/preview.png)
-
 ## 🚀 Technologies
 
 * React 19
