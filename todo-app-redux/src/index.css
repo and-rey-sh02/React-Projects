@@ -150,7 +150,7 @@ input {
 .primary-btn {
   background: linear-gradient(135deg, #8b5cf6, #3b82f6);
   color: white;
-  padding: 0 18px;
+  padding: 20px 18px;
   font-weight: 700;
 }
 
