@@ -2,6 +2,10 @@
 
 A modern task management application built with React, TypeScript, and Redux Toolkit.
 
+## 📸 Preview
+<img width="2888" height="1428" alt="image" src="https://github.com/user-attachments/assets/ad8911fd-b8dd-48d2-882c-a7f0d4563920" />
+
+
 ## 🔗 Demo
 
 https://react-projects-mu-seven.vercel.app
